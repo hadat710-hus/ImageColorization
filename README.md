@@ -19,11 +19,17 @@ cd Image-Colorization
 2. Cài đặt các thư viện cần thiết:
 pip install -r requirements.txt
 
+## Tải Model đã huấn luyện (Pre-trained Weights)
+Do giới hạn dung lượng của GitHub, file model không được đính kèm trực tiếp trong repo.
+Vui lòng tải file `(final_model_checkpoint.pth)` tại link sau và để vào thư mục gốc của dự án:
+
+ **[Link Google Drive tải Model tại đây]** (https://drive.google.com/file/d/1tDQ1ydv9O3x05AZ0ecuTKg1bS68S-6yx/view?usp=drive_link)
+
 ## Cách sử dụng
 
 1. Huấn luyện (Training)
 python train.py
-Model sẽ được lưu thành file colorization_model.pth.
+Model sẽ được lưu thành file final_model_checkpoint.pth.
 
 2. Chạy thử (Inference)
 Để tô màu cho một bức ảnh bất kỳ:
