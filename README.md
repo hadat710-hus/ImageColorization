@@ -44,6 +44,9 @@ Optimizer: Adam (Learning rate 2e-4).
 
 Input size: 256x256.
 
+## Chạy thử luôn trên Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19tGVibbHKXPNvKFt6avUf9s9dNNMBhVF?usp=sharing)
+
 ## Tác giả
 Hà Đức Đạt - [(https://github.com/hadat710-hus)]
 
